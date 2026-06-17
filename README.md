@@ -1,4 +1,4 @@
-#Projeto 2 – Comparando tratamentos em um ensaio clínico
+# Projeto 2 – Comparando tratamentos em um ensaio clínico
 
 1. Objetivo
 
@@ -13,6 +13,7 @@ Uma amostra de 150 indivíduos foi dividida entre 3 grupos de 50 cada: um grupo 
 A análise descritiva de cada grupo mostrou que as médias e os desvios padrão de cada tratamento estão na tabela a seguir
 
 | TRATAMENTO | MÉDIA | DESVIO PADRÃO |
+| ---------- | ----- | ------------- |
 | 	placebo  | 	1.4  | 		5.3        |
 | 	droga A  |  15.7 | 		6.1        |
 | 	droga B  | 	20.3 | 		6.8        |
