@@ -21,6 +21,7 @@ Tabela 1 – Resultados da estatística descritiva de cada tratamento
 | 	droga B     | 	20,3   | 		6,8                |
 
 Os resultados do modelo Anova mostram que o F-value é de 130,7 e o p-valor é menor que 2.10<sup>-16<sup>.
+
 O teste de Tukey tem como resultados:
 
 Tabela 2 – Resultados do Teste de Tukey
