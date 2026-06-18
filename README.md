@@ -18,8 +18,7 @@ A análise descritiva de cada grupo mostrou que as médias e os desvios padrão 
 | 	droga A  |  15.7 | 		6.1        |
 | 	droga B  | 	20.3 | 		6.8        |
 
-![boxplot](C:/Users/crist/Desktop/r_dados/curso-analise-de-dados-main/casos/boxplot_anova.jpeg)
-Os resultados do teste Anova mostram que o F-value é de 130,7 e o p-valor é menor que 2.10^-16^.
+Os resultados do teste Anova mostram que o F-value é de 130,7 e o p-valor é menor que 2.10^-16.
 
 
 4. Discussão e Conclusão
