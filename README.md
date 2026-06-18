@@ -12,21 +12,38 @@ Uma amostra de 150 indivíduos foi dividida entre 3 grupos de 50 cada: um grupo 
 
 A análise descritiva de cada grupo mostrou que as médias e os desvios padrão de cada tratamento estão na tabela a seguir
 
+Tabela 1 – Resultados da estatística descritiva de cada tratamento
+
 | TRATAMENTO | MÉDIA | DESVIO PADRÃO |
-| ---------- | ----- | ------------- |
-| 	placebo  | 	1.4  | 		5.3        |
-| 	droga A  |  15.7 | 		6.1        |
-| 	droga B  | 	20.3 | 		6.8        |
+| -------------------- | ---------- | ------------------------ |
+| 	placebo     | 	1,4     | 		5,3                |
+| 	droga A     |     15,7   | 		6,1                |
+| 	droga B     | 	20,3   | 		6,8                |
 
-Os resultados do teste Anova mostram que o F-value é de 130,7 e o p-valor é menor que 2.10<sup>-16<sup>.
+Os resultados do modelo Anova mostram que o F-value é de 130,7 e o p-valor é menor que 2.10<sup>-16<sup>.
+O teste de Tukey tem como resultados:
 
+Tabela 2 – Resultados do Teste de Tukey
+
+| TRATAMENTO | DIFF  | P ADJ   |
+| -------------------- | ------- | ---------- |
+| drogaA-placebo  | 14,31 | 	0,0     |
+| drogaB-placebo  | 18,82 | 	0,0     |
+| drogaB-drogaA  |   4,51  | 0.00085 |
 
 4. Discussão e Conclusão
 
-Comparando-se as médias e desvios padrão de cada tratamento, nota-se que as médias de redução para as drogas, tanto A quanto B, são maiores que o placebo, podendo indicar que elas são mais eficazes que o placebo na diminuição da pressão arterial após 8 semanas. A droga B ainda tem maior média, o que pode significar que sua eficácia seja ainda melhor do que a droga A.
+Observando a tabela 1, nota-se que as médias de redução para as drogas, tanto A quanto B, são maiores que o placebo, podendo indicar que elas são mais eficazes que o placebo na diminuição da pressão arterial após 8 semanas. A droga B ainda tem maior média, o que pode significar que sua eficácia seja ainda melhor do que a droga A.
+Como p-valor < 0.05, no modelo Anova, rejeita-se H<sub>0</sub>, ou seja, há uma diferença significativa entre 2 grupos e o Teste de Tukey determina quais são esses grupos através da observação do p-adj: se o p adj < 0,05, os dois grupos diferem significativamente.
+Segundo a tabela 2, a *droga A* e a **droga B** reduzem 14,31 e18,82 a mais que o placebo, respectivamente.
+Quanto à comparação entre as duas drogas, a <mark>droga B</mark> é melhor do que a droga A.
+Concluindo, as drogas A e B são mais eficazes na redução da pressão arterial do que o placebo, após 8 semanas, sendo que a droga B apresenta maior redução de pressão arterial no mesmo período.
+Aconselha-se a pesquisar os custos, a facilidade de administração e os efeitos colaterais de cada droga para uma melhor recomendação do método utilizado.
 
 5. Bibliotecas utilizadas
 
-6. Autor
+- [tidyverse](https://tidyverse.org/)
 
-Este caso foi retirado do curso “Análise de dados” do [campus virtual da Fiocruz]() e editado por [Cristina T. Iwassaki]().
+6. Autor(a/es)
+
+Este caso foi retirado do curso "Análise de dados" do [campus Virtual da Fiocruz](https://cursosqualificacao.campusvirtual.fiocruz.br/) e editado por [Cristina T. Iwassaki](https://www.linkedin.com/in/cristina-iwassaki/).
